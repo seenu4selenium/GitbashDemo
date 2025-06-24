@@ -14,3 +14,7 @@ public void selectByValue(By locater, String value) {
 		}
 
 	}
+	
+	else {
+				System.out.println("The webelement is NOT Enabled, please check**************");
+			}
