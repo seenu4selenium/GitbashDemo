@@ -1,1 +1,4 @@
-I am gibash test line
+	public void switchToNewTab() {		
+		ArrayList<String> allTabs = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(allTabs.get(1));
+	}
